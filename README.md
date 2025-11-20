@@ -1,0 +1,1 @@
+Kilka algorytmów zaimplementowanych :)
