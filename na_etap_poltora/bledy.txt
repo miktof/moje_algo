@@ -1,0 +1,21 @@
+Czytaj polecenia dokładnie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+
+Zanim wyślesz sprawdzaj czy ll czy int i czy dobre rozmiary tablic. 
+
+Zwracaj uwagę czy graf w zadaniu jest spójny i czy skierowany 
+
+ 
+
+Nie zapominaj wpisywać mod. 
+
+Zwracaj uwagę na to czy ma być >= czy > albo <= czy <. 
+
+Pamiętaj o edge case'ach 0 i INF 
+
+Zwracaj uwagę na to czy ma być += czy = (szczególnie w drzewach przedziałowych) 
+
+Jak przez godzine nic nie wymyślisz olej idz do kolejnego. 
+
+WSPINAJ SIĘ POD PODZADANIACH  
+
+Uważaj z komentowaniem cout'ów 

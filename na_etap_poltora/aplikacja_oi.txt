@@ -1,0 +1,28 @@
+Instrukcja
+Ta aplikacja umożliwia zawodnikom wysyłanie zadań w przypadku awarii SIO2.
+
+Uruchomienie aplikacji
+Windows
+Pobierz poprawną wersję aplikacji. Do wyboru są wersje 64-bitowe (sio2qr-windows64.exe), 32-bitowe (sio2qr-windows32.exe) oraz na architekturę ARM (sio2qr-windows-arm64.exe). Jeśli nie wiesz którą wybrać, prawdopodobnie jest to wersja 64-bitowa.
+Zapisz plik z rozwiązaniem, które chcesz wysłać. Najlepiej skopiować go do osobnego folderu. Pliku z rozwiązaniem nie możesz później edytować. 
+Przenieś myszką plik, który chcesz wysłać, nad ikonę ściągniętej aplikacji.
+Po zakończeniu zawodów i odzyskaniu dostępu do Internetu musisz wysłać dokładnie ten plik z rozwiązaniem na adres oi-reklamacje@dasie.mimuw.edu.pl
+Linux i Mac
+Pobierz poprawną wersję aplikacji. W przypadku systemu Linux do wyboru są 3 wersje: 64-bitowa (sio2qr-linux64), 32-bitowa (sio2qr-linux32) oraz na architekturę ARM (sio2qr-darwin-arm64). Jeśli nie wiesz którą wybrać, prawdopodobnie jest to wersja 64-bitowa. W przypadku systemu MacOS do wyboru są 2 wersje: 64-bitowa (sio2qr-darwin64, zwykle na stare wersje urządzeń Apple) oraz na architekturę ARM (sio2qr-darwin-arm64, nowe urządzenia, z procesorami serii M).
+Zapisz plik z rozwiązaniem, które chcesz wysłać. Najlepiej skopiować go do osobnego katalogu. Pliku z rozwiązaniem nie możesz później edytować. 
+Uruchom konsolę i z katalogu, w którym znajduje się aplikacja OI, wpisz następujące komendy:
+chmod +x sio2qr-linux64 
+./sio2qr-linux64 plik_do_wyslania
+Zmień sio2qr-linux64 na wersję aplikacji, którą pobrałeś. plik_do_wyslania powinien być ścieżką do pliku z rozwiązaniem. Część terminali wpisuje ścieżkę po przeciągnięciu nad nie pliku.
+Po zakończeniu zawodów oraz odzyskaniu dostępu do Internetu musisz wysłać dokładnie ten plik z rozwiązaniem na adres oi-reklamacje@dasie.mimuw.edu.pl
+System Linux udostępniany przez Olimpiadę
+Nie musisz samodzielnie instalować aplikacji - jest ona już obecna w systemie.
+Zapisz plik z rozwiązaniem, które chcesz wysłać. Najlepiej skopiować go do osobnego katalogu. Pliku z rozwiązaniem nie możesz później edytować. 
+Uruchom konsolę i z katalogu, w którym znajduje się wcześniej pobrany plik, wpisz następującą komendę:
+sio2qr plik_do_wyslania
+plik_do_wyslania powinien być ścieżką do pliku z rozwiązaniem. Część terminali wpisuje ścieżkę po przeciągnięciu nad nie pliku. 
+Po zakończeniu zawodów oraz odzyskaniu dostępu do Internetu musisz wysłać dokładnie ten plik z rozwiązaniem na adres oi-reklamacje@dasie.mimuw.edu.pl
+Sposoby wysyłania
+Zawodnik ma do dyspozycji tradycyjny (i zarazem polecany) sposób wysłania rozwiązania przez SIO oraz awaryjny sposób wysyłania rozwiązań - przez Internet za pomocą aplikacji OI. Sposób awaryjny najpierw generuje informację o istnieniu rozwiązania, co musi nastąpić w trakcie trwania zawodów i liczy się jako czas zgłoszenia rozwiązania, a następnie wymaga wysłania rozwiązania e-mailem, co musi nastąpić po zakończeniu zawodów do godz. 20.00. Tak jak w trakcie etapu on-line, w przypadku wysłania do danego zadania rozwiązań więcej niż jednym sposobem, do wyniku będzie liczyć się rozwiązanie o największej liczbie punktów.
+
+W przypadku, gdy SIO2 nie działa, a komputer zawodnika ma dostęp do Internetu, można wysłać informacje o pliku z programem na zapasowy serwer. Aplikacja po uruchomieniu spyta się, czy wysłać rozwiązanie przez Internet – należy wtedy wybrać "t".  

@@ -1,0 +1,9 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll=long long;
+constexpr int MAXN=1e6+7;
+int main(){
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+}
+
